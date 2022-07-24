@@ -5,6 +5,7 @@ import useSWR from "swr";
 import { apiKey, fetcher, tmdbAPI } from "../components/config";
 import MovieCard from "../components/movies/MovieCard";
 import "./moviedetailpage.scss";
+import "../index.scss";
 // https://api.themoviedb.org/3/movie/{movie_id}?api_key=bd71f87d6b4cfbb6d5217d31ac72c415
 // https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key=
 const MovieDetailPage = () => {
@@ -58,7 +59,7 @@ const MovieDetailPage = () => {
           </div>
         </div>
       </div>
-      <div className="pt-72 list">
+      <div className="pt-96 list">
         <MovieVideos></MovieVideos>
         <MovieSimilar></MovieSimilar>
       </div>

@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/scss";
 import Banner2 from "./components/banner/Banner2";
 import Main from "./components/layout/Main";
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -14,13 +15,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyA0anmde7SqinCLgatvInhBQIZQjLMZMWM",
-  authDomain: "movie-app-f10bc.firebaseapp.com",
-  projectId: "movie-app-f10bc",
-  storageBucket: "movie-app-f10bc.appspot.com",
-  messagingSenderId: "1048474476239",
-  appId: "1:1048474476239:web:31721b8826e52f907de1ba",
-  measurementId: "G-SZ5310LNKL",
+  apiKey: "AIzaSyD5SdzmoPnXHOM4_HLtbcU91YIBooMKMuQ",
+  authDomain: "movie2-36a51.firebaseapp.com",
+  projectId: "movie2-36a51",
+  storageBucket: "movie2-36a51.appspot.com",
+  messagingSenderId: "116574885027",
+  appId: "1:116574885027:web:7e87996a792fb8aa1a5b16",
+  measurementId: "G-K5GKCEYQ8K",
 };
 
 // Initialize Firebase
@@ -44,7 +45,8 @@ function App() {
               path="/"
               element={
                 <>
-                  <Banner2></Banner2> <HomePage></HomePage>
+                  <Banner2></Banner2>
+                  <HomePage></HomePage>
                 </>
               }
             ></Route>
