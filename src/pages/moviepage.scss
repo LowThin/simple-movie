@@ -1,0 +1,14 @@
+@import "../scss/mixin.scss";
+@import "../scss/variables.scss";
+@import "../scss/breakpoint.scss";
+
+.movie-list {
+  @include tablet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include mobile {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
